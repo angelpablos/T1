@@ -16,9 +16,7 @@ public class Ejercicio4 {
 		System.out.println("¿Necesitas ir a la biblioteca?");
 		boolean biblioteca = sc.nextBoolean();
 		
-		boolean canGo = biblioteca;
-		
-		System.out.println(canGo || (!lloviendo && tareas) ? "Puedes salir" : "No puedes salir");
+		System.out.println(biblioteca || (!lloviendo && tareas) ? "Puedes salir" : "No puedes salir");
 		sc.close();
 	}
 
