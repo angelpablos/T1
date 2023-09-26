@@ -18,10 +18,7 @@ public class Ejercicio4 {
 		
 		boolean canGo = biblioteca;
 		
-		if (!lloviendo && tareas)
-			canGo = true;
-		
-		System.out.println(canGo ? "Puedes salir" : "No puedes salir");
+		System.out.println(canGo || (!lloviendo && tareas) ? "Puedes salir" : "No puedes salir");
 		sc.close();
 	}
 
