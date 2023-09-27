@@ -6,11 +6,12 @@ public class Ejercicio2 {
 
 	public static void main(String[] args) {
 		// Inicializamos variables
+		int edad;
 		Scanner sc = new Scanner(System.in);
 
 		// Pedimos la edad
 		System.out.println("Introduce tu edad: ");
-		int edad = sc.nextInt();
+		edad = sc.nextInt();
 		
 		// Escribimos si es mayor de edad
 		System.out.println("Mayor de edad: " + (edad >= 18));

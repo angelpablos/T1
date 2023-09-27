@@ -6,6 +6,7 @@ public class Ejercicio8 {
 
 	public static void main(String[] args) {
 		// Inicializamos variables
+		int edad;
 		Scanner sc = new Scanner(System.in);
 		
 		// Preguntamos el nombre
@@ -14,7 +15,7 @@ public class Ejercicio8 {
 		
 		// Preguntamos la edad
 		System.out.println("Introduce tu edad: ");
-		int edad = sc.nextInt();
+		edad = sc.nextInt();
 		
 		// Escribimos el texto con el nombre y la edad en pantalla
 		System.out.println("Hola " + nombre + ", tienes " + edad + " años, ¡qué mayor eres!");

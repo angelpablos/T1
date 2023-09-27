@@ -6,6 +6,7 @@ public class Ejercicio7 {
 
 	public static void main(String[] args) {
 		// Inicializamos variables
+		int numero;
 		Scanner sc = new Scanner(System.in);
 		
 		// Preguntamos el nombre
@@ -18,7 +19,7 @@ public class Ejercicio7 {
 		
 		// Preguntamos el numero
 		System.out.println("Introduce tu número: ");
-		int numero = sc.nextInt();
+		numero = sc.nextInt();
 		
 		// Escribimos los valores en pantalla
 		System.out.println("Nombre: " + nombre);
